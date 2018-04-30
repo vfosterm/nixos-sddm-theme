@@ -40,12 +40,6 @@ FocusScope {
         smooth: true
     }
 
-    RecursiveBlur {
-        anchors.fill: sceneImageBackground
-        source: sceneImageBackground
-        radius: 4.5
-        loops: 40
-    }
 
     states: [
         State {
