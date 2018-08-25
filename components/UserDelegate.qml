@@ -99,6 +99,7 @@ Item {
         anchors {
             bottom: parent.bottom
             horizontalCenter: parent.horizontalCenter
+            leftMargin: 5
         }
         height: implicitHeight // work around stupid bug in Plasma Components that sets the height
         // width: constrainText ? parent.width : implicitWidth
